@@ -1,16 +1,3 @@
-Questionnaire : 
-
-1. Afin d’indiquer à Angular que je souhaite faire des requêtes http dans mon application,
-quel module dois-je impérativement importer dans le app.module.ts ?
-
-Je dois importer : HttpClientModule dans la section "imports"
-
-
-2. Que permet de faire cette ligne de code :
-[class.red]="compteur < 0"
-
-Elle permet de mettre le text en rouge une fois que le compteur est négatif.
-
 3. Je viens de faire un « git clone » sur un projet Angular, je dois lancer une commande
 afin de récupérer le dossier « node_modules », lequel ?
 
