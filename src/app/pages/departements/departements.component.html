@@ -1,8 +1,8 @@
-<div class="my-5" *ngIf="test">
+<div class="my-5" *ngIf="departements">
   <div class="alert alert-success" role="alert">
     <h1 class="text-center">Nos départements aussi !</h1>
   </div>
-  <table mat-table [dataSource]="test" class="mat-elevation-z8">
+  <table mat-table [dataSource]="departements" class="mat-elevation-z8">
 
     <!-- Position Column -->
     <ng-container matColumnDef="Nom">

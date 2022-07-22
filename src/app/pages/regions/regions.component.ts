@@ -11,7 +11,7 @@ import {RegionsResults} from "../../models/regions/regionsResults";
 })
 export class RegionsComponent implements OnInit {
 
-  test: RegionsResults[] | undefined;
+  regions: RegionsResults[] | undefined;
   tableau: string[] = ['Nom','Code'];
 
   constructor(private _httpService: HttpServices) { }
@@ -24,7 +24,7 @@ export class RegionsComponent implements OnInit {
 
     this._httpService.getRequest<RegionsResults[]>(url)
       .subscribe((responses) => {
-        this.test = responses;
+        this.regions = responses;
       })
 
   }

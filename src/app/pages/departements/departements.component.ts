@@ -11,7 +11,7 @@ import {DepartementsResults} from "../../models/departements/departementsResults
 })
 export class DepartementsComponent implements OnInit {
 
-  test: DepartementsResults[] | undefined;
+  departements: DepartementsResults[] | undefined;
   tableau: string[] = ['Nom','Code','Code Region'];
 
   constructor(private _httpService: HttpServices) { }
@@ -24,7 +24,7 @@ export class DepartementsComponent implements OnInit {
 
     this._httpService.getRequest<DepartementsResults[]>(url)
       .subscribe((responses) => {
-        this.test = responses;
+        this.departements = responses;
       })
 
   }
