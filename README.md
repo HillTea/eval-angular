@@ -39,3 +39,5 @@ protected
 Le "private" permet de privé un attribut ou une méthode à la class même, si elle n'est pas déclaré dans le constructeur et qu'un "get" n'est pas attribué alors elle reste utilisable que dans la class.
 Le "public" rend une méthode ou un attribu public, ce qui signifie que dans la class est instantié dans une autre class alors on peut prendre la méthode/attribu demandé(e)
 Le "protected" est accessible dans la classe qui le définit
+  
+  https://raw.githubusercontent.com/HillTea/eval-angular/main/README.md
